@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato',sans-serif;
+}
+
+
+.hero-text {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) ,url("img/toyota-hq.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:100vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.short-info {
+    text-align: center;
+}
+
+.short-info p {
+    margin-bottom: 20px;
+}
+
+.short-info a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.navigation {
+    justify-content: flex-end;
+}
+
+.navigation-cont {
+    background: #4b4b4b;
+    color: #fff;
+}
+
+.navigation-cont .navbar-nav .nav-link {
+    color: #fff;
+    border:2px solid transparent;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.navigation-cont .navbar-nav .nav-link:hover {
+   border-bottom: 2px solid #b33939;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.services {
+    margin-top: 120px;
+}
+
+.services h3 {
+    font-size: 22px;
+}
+
+.services h2::after {
+    display:block;
+    height: 2px;
+    content: '';
+    background:  #b33939;
+    width: 30%;
+    margin: 1% auto 4% auto;
+}
+
+.usluge {
+    font-size: 45px;
+    color: #4b4b4b;
+     text-align: center;
+}
+
+
+
+.slide-show {
+    margin-top: 125px;
+}
+
+.gallery {
+    margin: 0 auto;
+}
+
+.gallery img {
+    max-height: 500px;
+    object-fit: cover;
+    width: auto;
+}
+
+.cars {
+    margin-top: 115px;
+}
+
+.cars h3 {
+    text-align: center;
+}
+
+.cars h3::after {
+    display:block;
+    height: 2px;
+    content: '';
+    background:  #b33939;
+    width: 30%;
+    margin: 1% auto 4% auto;
+}
+
+.cars .car-pic {
+    position: relative;
+    border-radius: 5px;
+}
+
+.cars .name {
+    padding: 5px 10px;
+    position: absolute;
+    bottom: -15px;
+    width: 84%;
+    color: #fff;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 0 0 5px 5px;
+}
+.cars .car-card{
+    transition: all 0.3s;
+    backface-visibility: hidden;
+    
+    
+}
+
+.cars .car-card:hover{
+    transform: scale(1.1);
+}
+
+.cars .row-1 {
+    margin-bottom: 40px;
+}
+
+.map {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.map .google-map {
+    width: 100%;
+}
+.sub-row {
+    justify-content: center;
+}
+
+.btn-send {
+    background: #b33939;
+    color: white;
+}
+
+
+.footer {
+    background: #4b4b4b;
+    color: #fff;
+    padding: 15px;
+}
+
+.footer ul li {
+    list-style-type: none;
+    font-weight: 300;
+}
+
+.footer .cont-info {
+    font-size: 18px;
+}
+
+.footer ul li a {
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #b33939;
+}
+
+.right-col {
+    border-left: 2px solid #b33939;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.car-parts {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.car-parts .about {
+    display:flex;
+    align-items: center;
+}
+@media only screen and (max-width: 1199px)
+{
+    .car-card .name {
+        width: 81%;
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .car-card {
+        width: 70%;
+        margin:0 auto 50px auto;
+    }
+    
+     .car-card .name {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    
+    h1 {
+        font-size: 26px;    
+    }
+    
+    .car-card .name {
+        width: 92%;
+    }
+    
+    .right-col {
+        border-left: none;
+        border-top:2px solid #b33939;
+        padding-top:20px;
+    }
+    
+    .slide-show {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 497px)
+{
+    .car-card .name {
+        width: 91%;
+    }
+}
+
+@media only screen and (max-width: 452px)
+{
+    .car-card .name {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 411px)
+{
+    .car-card .name {
+        width: 89%;
+    }
+}
+
+@media only screen and (max-width: 367px)
+{
+    .car-card .name {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width: 339px)
+{
+    .car-card .name {
+        width: 87%;
+    }
+}
+
+@media only screen and (max-width: 325px)
+{
+    .car-card .name {
+        width: 86%;
+    }
+}
