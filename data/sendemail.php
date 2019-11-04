@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			// Verified
 		} else {
 			echo '<pre>';
-			print_r("Not verified - show form error");
+			print_r("Not verified - show form error!");
 			echo '</pre>';
 			exit;
 			// Not verified - show form error
