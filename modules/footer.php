@@ -12,7 +12,7 @@
 						<li>Email: <a href="mailto:0631689850">markomilic582@gmail.com</a></li>
 						<li>Adresa: Mostanicka bb, Sremcica, Beograd</li>
 						<li>Radno vreme servisa: 09h-17h</li>
-						<li>Kontaktirajte nas: 08h-21h</li>
+						<li>Kontaktirajte nas: 08h-22h</li>
 					</ul>
 				</div>
 
